@@ -1,3 +1,5 @@
+import { LandingRoutingModule } from './landing-page/landing-page.routing.module';
+import { LandingPageModule } from './landing-page/landing-page.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
