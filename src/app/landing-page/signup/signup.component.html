@@ -1,11 +1,85 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Register</ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
-  <div>
-    <form>
-
-    </form>
-  </div>
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">First name</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Last name</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        <ion-button routerLink="/login" type="submit" color="danger" expand="block">Sign Up</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
 </ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <ion-app>
+  <ion-header>
+    <ion-toolbar> </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <div>
+      <form>
+        <ion-item>
+          <ion-label position="floating">First Name*</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Last Name*</ion-label>
+          <ion-input formControlName="lastName"></ion-input>
+        </ion-item>
+      </form>
+    </div>
+  </ion-content>
+  <ion-footer>
+    <ion-toolbar>
+      <ion-button>
+        <ion-icon name="arrow-back"></ion-icon>
+        BACK
+      </ion-button>
+      <ion-button>
+        LOG IN
+        <ion-icon name="arrow-forward"></ion-icon>
+      </ion-button>
+    </ion-toolbar>
+  </ion-footer>
+</ion-app> -->

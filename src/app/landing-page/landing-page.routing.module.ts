@@ -11,8 +11,7 @@ import { IonicModule } from '@ionic/angular';
 const routes: Routes = [
 	{
 		path: '',
-		redirectTo: 'login',
-    pathMatch: 'full'
+    component: LandingPageComponent
   },
   {
     path:'login',component:LoginComponent

@@ -17,7 +17,10 @@ import { LandingRoutingModule } from './landing-page.routing.module';
     ],
     declarations:[
       LoginComponent,
-      SignupComponent
+      SignupComponent,
+
     ]
 })
-export class LandingPageModule {}
+export class LandingPageModule {
+}
+

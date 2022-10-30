@@ -1,3 +1,26 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+<ion-header >
+  <ion-toolbar>
+    <ion-title color="tertiary">
+      <div class="img-area">
+        <div class="img-container">
+          <img src="https://greatergoods.com/assets/images/footer-icons/gg_logo_full.png" alt="">
+        </div>
+      </div>
+      <div class="pro"> PRODUCTS </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content >
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['./signup']" expand="block" color="primary">Register</ion-button>
+        <span class="or">or</span><br><br>
+        <span class="already">Already a user?</span><br><br>
+        <ion-button [routerLink]="['./login']" expand="block" color="danger">Sign In</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
 </ion-app>
